@@ -4,6 +4,12 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="nzXwwdT2HM7f-2j444SC-15" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#a20025, #e81717);fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
+          <mxGeometry x="740" y="190" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nzXwwdT2HM7f-2j444SC-14" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#a20025, #e81717);fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
+          <mxGeometry x="730" y="200" width="70" height="50" as="geometry" />
+        </mxCell>
         <mxCell id="nzXwwdT2HM7f-2j444SC-8" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="690" y="-30" width="249" height="140" as="geometry" />
         </mxCell>
@@ -90,8 +96,8 @@
         <mxCell id="VCFRlaYdZBU84L3pJSfm-36" value="original website" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="30" y="90" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="VCFRlaYdZBU84L3pJSfm-37" value="Reddis cache" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#a20025, #e81717);fontColor=#ffffff;strokeColor=#6F0000;" parent="1" vertex="1">
-          <mxGeometry x="720" y="200" width="120" height="60" as="geometry" />
+        <mxCell id="VCFRlaYdZBU84L3pJSfm-37" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Cache Instance 1&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#a20025, #e81717);fontColor=#ffffff;strokeColor=#6F0000;" parent="1" vertex="1">
+          <mxGeometry x="720" y="210" width="70" height="50" as="geometry" />
         </mxCell>
         <mxCell id="VCFRlaYdZBU84L3pJSfm-38" value="3 first search in cache" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" parent="1" source="VCFRlaYdZBU84L3pJSfm-4" target="VCFRlaYdZBU84L3pJSfm-37" edge="1">
           <mxGeometry x="-0.4176" y="-19" width="50" height="50" relative="1" as="geometry">
