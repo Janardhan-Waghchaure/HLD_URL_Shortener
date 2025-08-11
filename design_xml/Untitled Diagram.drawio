@@ -4,6 +4,18 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="nzXwwdT2HM7f-2j444SC-37" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nzXwwdT2HM7f-2j444SC-36" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nzXwwdT2HM7f-2j444SC-34" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#FF33FF);strokeColor=light-dark(#000000,#000000);" vertex="1" parent="1">
+          <mxGeometry x="270" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nzXwwdT2HM7f-2j444SC-33" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#FF33FF);strokeColor=light-dark(#000000,#000000);" vertex="1" parent="1">
+          <mxGeometry x="260" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="nzXwwdT2HM7f-2j444SC-28" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#000000,#47DF19);fillStyle=solid;textShadow=1;fontColor=light-dark(#000000,#151515);" vertex="1" parent="1">
           <mxGeometry x="760" y="-20" width="60" height="80" as="geometry" />
         </mxCell>
@@ -84,7 +96,7 @@
         <mxCell id="VCFRlaYdZBU84L3pJSfm-21" value="Shard 1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#000000,#47DF19);fillStyle=solid;textShadow=1;fontColor=light-dark(#000000,#151515);" parent="1" vertex="1">
           <mxGeometry x="730" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="VCFRlaYdZBU84L3pJSfm-31" value="user hitting&amp;nbsp;&lt;div&gt;original website&lt;/div&gt;" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="VCFRlaYdZBU84L3pJSfm-2" edge="1">
+        <mxCell id="VCFRlaYdZBU84L3pJSfm-31" value="user hitting&amp;nbsp;&lt;div&gt;original website&lt;/div&gt;" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="VCFRlaYdZBU84L3pJSfm-2" edge="1" target="VCFRlaYdZBU84L3pJSfm-36">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="50" y="200" as="sourcePoint" />
             <mxPoint x="60" y="150" as="targetPoint" />
@@ -97,7 +109,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="VCFRlaYdZBU84L3pJSfm-36" value="original website" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="30" y="90" width="80" height="40" as="geometry" />
+          <mxGeometry x="-140" y="60" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="VCFRlaYdZBU84L3pJSfm-37" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Cache Instance 1&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#a20025, #e81717);fontColor=#ffffff;strokeColor=#6F0000;" parent="1" vertex="1">
           <mxGeometry x="720" y="210" width="70" height="50" as="geometry" />
@@ -174,16 +186,10 @@
         <mxCell id="nzXwwdT2HM7f-2j444SC-16" value="Local Server&lt;div&gt;Cache/CDN&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#FFFF33);fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);" vertex="1" parent="1">
           <mxGeometry x="60" y="360" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="nzXwwdT2HM7f-2j444SC-17" value="CDN hits API&amp;nbsp;&lt;div&gt;gateways(cache miss)&lt;/div&gt;" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.697;exitY=-0.017;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="nzXwwdT2HM7f-2j444SC-16" target="VCFRlaYdZBU84L3pJSfm-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
+        <mxCell id="nzXwwdT2HM7f-2j444SC-17" value="Local LB&#39;s hits&amp;nbsp;&lt;div&gt;API gateways&lt;/div&gt;" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.378;exitY=0.064;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="nzXwwdT2HM7f-2j444SC-32" target="VCFRlaYdZBU84L3pJSfm-1">
+          <mxGeometry x="-0.4556" y="-52" width="50" height="50" relative="1" as="geometry">
             <mxPoint x="140" y="350" as="sourcePoint" />
             <mxPoint x="190" y="300" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="nzXwwdT2HM7f-2j444SC-18" value="write to CDN in&amp;nbsp;&lt;div&gt;case of cache miss&lt;/div&gt;" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VCFRlaYdZBU84L3pJSfm-1" target="nzXwwdT2HM7f-2j444SC-16">
-          <mxGeometry x="0.3235" y="46" width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="240" y="450" as="sourcePoint" />
-            <mxPoint x="290" y="400" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -209,6 +215,15 @@
             <mxPoint x="-110" y="220" as="sourcePoint" />
             <mxPoint x="-60" y="170" as="targetPoint" />
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nzXwwdT2HM7f-2j444SC-32" value="Local Load&amp;nbsp;&lt;div&gt;balencers&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#FF33FF);strokeColor=light-dark(#000000,#000000);fontColor=light-dark(#000000,#000000);" vertex="1" parent="1">
+          <mxGeometry x="250" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nzXwwdT2HM7f-2j444SC-35" value="CDN hits&amp;nbsp;&lt;div&gt;local LB&#39;s&lt;/div&gt;" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nzXwwdT2HM7f-2j444SC-16" target="nzXwwdT2HM7f-2j444SC-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="510" as="sourcePoint" />
+            <mxPoint x="180" y="460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
