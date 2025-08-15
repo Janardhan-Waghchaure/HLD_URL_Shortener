@@ -1,0 +1,29 @@
+Functional Requirements (FR)
+
+      1. Shorten long URLs.
+      
+      2. Redirect to original URL when short link is accessed.
+      
+      3. Optional: Allow custom aliases.
+      
+      4. Track analytics (click count, referrer, geolocation).
+      
+      5. Optional: Set expiration date or click limit for short URLs.
+      
+      6. Provide REST API for operations.
+
+Non-Functional Requirements (NFR)
+
+      1. Scalability to handle millions of requests/day.
+      
+      2. High availability (99.99% uptime).
+      
+      3. Low latency (<100ms redirects).
+      
+      4. Reliability — No mapping loss.
+      
+      5. Security against malicious or phishing links.
+      
+      6. Durability — Persistent storage.
+      
+      7. Observability — Metrics, logs, and tracing.
